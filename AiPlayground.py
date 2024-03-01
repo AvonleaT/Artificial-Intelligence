@@ -5,10 +5,10 @@
 print("This will be a place for me to play with programming using AI technology.\n")
 
 #AI Tell the Weather
-"""
+
 import requests
 import json
-
+"""
 def get_weather(location):
     url = "https://openweathermap.org/faq#error401" + location + "&appid=your api key"
     response = requests.get(url).json()
@@ -35,7 +35,7 @@ import math
 def add(x,y):
     print(add(1, 2))
     return x + y
-"""
+
 
 import random
 
@@ -45,3 +45,20 @@ print(r)
 
 
 
+import random
+
+def passgen():
+
+    password = "".join([chr(randint(97,122)) forx in range(8)])
+
+    print(password)
+"""
+import random
+
+def passgen():
+
+    password = "".join([chr(randint(97,122)) forx in range(8)])
+
+    print(password)
+
+    passgen()
